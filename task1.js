@@ -1,27 +1,14 @@
-const trueCorner = 3;
-let answerIsCorrect = false;
+const filmName = ['\"Брат\"', '\"Цвет граната\"', '\"Пролетая над гнездом кукушки\"'];
+const answers = [];
 
-let userCorner = +prompt('Введите угол наклона (от 0 до 5)');
+for (let i = 0; i < 3; i++) {
+  let question = confirm(`Смотрели ли вы ${filmName[i]}?`);
 
-if (userCorner < 3) {
-  alert('Промах, возьмите чутка выше.');
-} else if (userCorner > 3) {
-  alert('Промах, возьмите чутка ниже.');
-} else if (userCorner === trueCorner) {
-  answerIsCorrect = true;
-} 
-
-if (answerIsCorrect === false) {
-  userCorner = +prompt('Введите угол наклона (от 0 до 5)');
-} 
-
-if (userCorner === trueCorner) {
-  answerIsCorrect = true;
-} else {
-  alert('К сожалению, опять промах. Правильное число было 3')
+  if (question === true) {
+    answers.push('yes');
+  } else {
+    answers.push('no');
+  }
 }
 
-if (answerIsCorrect) {
-  alert('Поздравляем, вы попали!');
-}
-
+console.log(answers);
