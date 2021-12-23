@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tr {
+  height: 100px;
+  width: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid gray;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid gray;
+}
+
+.right-answer {
+  background-color: green;
+}
+
+.wrong-answer {
+  background-color: red;
+}
+
+.default {
+  background-color: #f0f0f0;
+}
