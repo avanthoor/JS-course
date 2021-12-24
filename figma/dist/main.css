@@ -1,0 +1,40 @@
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/style.scss ***!
+  \****************************************************************************************************************/
+@font-face {
+  font-family: "Larsseit";
+  src: url(c7f69c1e1c564389b02d.ttf); }
+
+@font-face {
+  font-family: "Larsseit-Thin";
+  src: url(2792dbed7036d6d435e1.ttf); }
+
+body {
+  font-family: "Larsseit";
+  color: #fff;
+  background: #62d0df; }
+
+.container {
+  display: flex;
+  justify-content: space-between; }
+
+.text-wrapper {
+  width: 555px;
+  margin: 100px 0 0 100px; }
+
+h1 {
+  font-size: 36px;
+  letter-spacing: -0.006em;
+  padding-bottom: 75px; }
+
+p {
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.0018em; }
+
+span {
+  font-family: "Larsseit-Thin";
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.003em; }
+
